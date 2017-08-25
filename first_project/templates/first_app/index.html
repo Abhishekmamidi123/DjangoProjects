@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{% static "css/mystyle.css" %}">
+  <title>Wallpaper</title>
+</head>
+<body>
+  <h1>This is a wallpaper</h1>
+  <img src="{% static "images/abhi.jpg" %}" alt="Wallpaper">
+  <br>
+  {{ insert_me }}
+</body>
+</html>
